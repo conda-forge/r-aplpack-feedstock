@@ -35,7 +35,7 @@ test:
 
 about:
   home: http://www.wiwi.uni-bielefeld.de/lehrbereiche/statoekoinf/comet/wolf/wolf_aplpack
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: 'Some functions for drawing some special plots: The function ''bagplot'' plots a bagplot,
     ''faces'' plots chernoff faces, ''iconplot'' plots a representation of a frequency
     table or a data matrix, ''plothulls'' plots hulls of a bivariate data set, ''plotsummary''

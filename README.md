@@ -3,13 +3,11 @@ About r-aplpack
 
 Home: http://www.wiwi.uni-bielefeld.de/lehrbereiche/statoekoinf/comet/wolf/wolf_aplpack
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aplpack-feedstock/blob/master/LICENSE.txt)
 
 Summary: Some functions for drawing some special plots: The function 'bagplot' plots a bagplot, 'faces' plots chernoff faces, 'iconplot' plots a representation of a frequency table or a data matrix, 'plothulls' plots hulls of a bivariate data set, 'plotsummary' plots a graphical summary of a data set, 'puticon' adds icons to a plot, 'skyline.hist' combines several histograms of a one dimensional data set in one plot, 'slider' functions supports some interactive graphics, 'spin3R' helps an inspection of a 3-dim point cloud, 'stem.leaf' plots a stem and leaf plot, 'stem.leaf.backback' plots back-to-back versions of stem and leaf plot.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-aplpack` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-aplpack` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
