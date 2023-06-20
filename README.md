@@ -1,11 +1,11 @@
-About r-aplpack
-===============
+About r-aplpack-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aplpack-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.wiwi.uni-bielefeld.de/lehrbereiche/statoekoinf/comet/wolf/wolf_aplpack
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-aplpack-feedstock/blob/main/LICENSE.txt)
 
 Summary: Some functions for drawing some special plots: The function 'bagplot' plots a bagplot, 'faces' plots chernoff faces, 'iconplot' plots a representation of a frequency table or a data matrix, 'plothulls' plots hulls of a bivariate data set, 'plotsummary' plots a graphical summary of a data set, 'puticon' adds icons to a plot, 'skyline.hist' combines several histograms of a one dimensional data set in one plot, 'slider' functions supports some interactive graphics, 'spin3R' helps an inspection of a 3-dim point cloud, 'stem.leaf' plots a stem and leaf plot, 'stem.leaf.backback' plots back-to-back versions of stem and leaf plot.
 
